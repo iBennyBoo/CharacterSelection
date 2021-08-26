@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var optionButton: UIButton!
     @IBOutlet weak var selectButton: UIButton!
     @IBOutlet weak var imageOutlet: UIImageView!
+    var x = 0
     override func viewDidLoad() {
         super.viewDidLoad()
         let black = UIColor.black
@@ -38,8 +39,12 @@ class ViewController: UIViewController {
         
     }
     @IBAction func optionButton(_ sender: Any) {
+        if(x == 0){
+        }
+        
         imageOutlet.image = UIImage(named: "pony.png")
         
+        //does this work
         
     }
     
